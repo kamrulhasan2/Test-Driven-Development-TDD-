@@ -24,3 +24,9 @@ test('sum should be 4', () => {
 test('parameters should not to be string', ()=>{
     expect(typeof sum(50,50)).not.toBe('string');
  });
+
+describe('sum function', () => {
+  it('should correctly add two numbers', () => {
+    expect(sum(2, 3)).toBe(5);
+  });
+});
