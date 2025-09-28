@@ -1,4 +1,5 @@
 import './App.css'
+import Counter from './components/Counter'
 
 function App() {
 
@@ -6,6 +7,7 @@ function App() {
     <>
       <div>
         <h1>Hello React Testing Library</h1>
+        <Counter />
       </div>
         
     </>
